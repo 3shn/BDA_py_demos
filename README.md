@@ -12,26 +12,20 @@ Demos are in jupyter notebook (.ipynb) format. These can be directly previewed i
 Corresponding demos were originally written for [Matlab/Octave](https://github.com/avehtari/BDA_m_demos) by [Aki Vehtari](http://users.aalto.fi/~ave/) and translated to Python by Tuomas Sivula. Some improvements were contributed by Pellervo Ruponen and Lassi Meronen. There are also corresponding [R demos](https://github.com/avehtari/BDA_R_demos).
 
 
-## Requirements
+## Installation
 
-- python
-- ipython
-- numpy
-- scipy
-- matplotlib 
-- pandas (for some demos)
-- cmdstanpy (for some demos)
-- ArviZ (for some demos)
+This project uses [pixi](https://pixi.sh/) to manage dependencies.
 
+1. **Install pixi:** If you don't have pixi installed, you can find the installation instructions [here](https://pixi.sh/latest/#installation).
 
-You can install all necessary packages with `environment.yml` file using [conda](https://docs.conda.io/en/latest/) or [mamba](https://mamba.readthedocs.io/en/latest/):
+2. **Install dependencies:** Open a terminal and navigate to the project's root directory. Then, run the following command to install all the necessary packages:
 
-```bash
-conda env create -f environment.yml
-``` 
+   ```bash
+   pixi install
+   ```
 
-or 
+3. **Run Jupyter:** With the dependencies installed, you can start Jupyter Notebook to run the demos:
 
-```bash
-mamba env create -f environment.yml
-``` 
+   ```bash
+   pixi run jupyter notebook
+   ``` 

@@ -1,4 +1,17 @@
 *.pyc
 *.ipynb_checkpoints*
 *cached-model-*.pkl
-*~
+*~# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+# AI tool configs
+AGENTS.md
+.gemini/
+.vscode/
+.idea/
+.devcontainer/
+*.code-workspace
+
+# Other
+.DS_Store

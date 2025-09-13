@@ -3,8 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.12
-  - cmdstan
+  - python
   - cmdstanpy
   - arviz
   - matplotlib
@@ -13,6 +12,4 @@ dependencies:
   - ipython
   - pandas
   - scipy
-  - pip
-  - pip:
-      - preliz>=0.21.0
+  - preliz

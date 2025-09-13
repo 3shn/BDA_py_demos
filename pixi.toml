@@ -1,0 +1,20 @@
+[workspace]
+authors = ["3shn <88603768+3shn@users.noreply.github.com>"]
+channels = ["conda-forge", "main", "r", "msys2"]
+name = "bda_py_demos"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "*"
+cmdstanpy = "*"
+arviz = "*"
+matplotlib = "*"
+numpy = "*"
+jupyter = "*"
+ipython = "*"
+pandas = "*"
+scipy = "*"
+preliz = "*"
